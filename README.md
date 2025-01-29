@@ -21,15 +21,13 @@ arbeidskrav/
 ├── docker-compose.yml > Definerer de tre tjenstene, og deres avhengigheter.
 └── README.md
 
-
-
 ## Krav
 - [Docker] (https://www.docker.com/get-started)
 
 ## Klone og bygge prosjektet
-- git clone
-- cd Test-Compose
-- docker-compose up --build
+1. git clone
+2. cd Test-Compose
+3. docker-compose up --build
 
 ### TEST prosjektet
 "curl http://localhost/entitiets" i terminalen, eller "http://localhost/entitiet" i nettleseren.
