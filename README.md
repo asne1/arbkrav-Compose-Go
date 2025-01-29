@@ -20,6 +20,7 @@ arbeidskrav/
 ├── .gitignore
 ├── docker-compose.yml > Definerer de tre tjenstene, og deres avhengigheter.
 └── README.md
+plaintext'''
 
 ## Krav
 - [Docker] (https://www.docker.com/get-started)
