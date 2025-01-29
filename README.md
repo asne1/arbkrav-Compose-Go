@@ -4,6 +4,8 @@ Denne består av en web (nginx som omvent proxy), API (Golang:alpine) og db (MyS
 Disse er satt opp til å kjøre i Docker-containere ved hjelp av docker-compose. 
 
 ## Prosjektets struktur
+
+```plaintext
 arbeidskrav/
 ├── Api/
 │   ├── main.go > hoved Go-kildekoden
