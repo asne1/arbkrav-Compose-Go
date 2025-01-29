@@ -23,10 +23,10 @@ arbeidskrav/
 
 
 
-### Krav
+## Krav
 - [Docker] (https://www.docker.com/get-started)
 
-### Klone og bygge prosjektet
+## Klone og bygge prosjektet
 - git clone
 - cd Test-Compose
 - docker-compose up --build
