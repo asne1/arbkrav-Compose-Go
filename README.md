@@ -26,7 +26,7 @@ arbeidskrav/
 - [Docker] (https://www.docker.com/get-started)
 
 ## Klone og bygge prosjektet
-1. git clone
+1. git clone https://github.com/asne1/arbkrav-Compose-Go.git|
 2. cd Test-Compose
 3. docker-compose up --build
 
