@@ -30,7 +30,7 @@ arbeidskrav/
 3. docker-compose up --build
 
 ### TEST prosjektet
-"curl http://localhost/entitiets" i terminalen, eller "http://localhost/entitiet" i nettleseren.
+"curl http://localhost/entities" i terminalen, eller "http://localhost/entities" i nettleseren.
 
 #### Feilsøking
 - docker-compose logs
