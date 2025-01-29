@@ -1,8 +1,6 @@
 services:
   nginx:
-    build:
-      context: ./nginx
-      dockerfile: Dockerfile
+    image: annesne/nginx:go3
     ports:
       - "80:80"
     volumes: # kopierer fra stien lokalt : til filstien i Docker-container
@@ -11,9 +9,7 @@ services:
       - api
 
   api:
-    build:
-      context: ./api
-      dockerfile: Dockerfile
+    image: annesne/api:go3
     ports:
       - "5001:8080" # 5000 er opptatt 
     environment:
